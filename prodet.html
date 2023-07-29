@@ -1,0 +1,32 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="prodet.js" >
+	</script>
+</head>
+<body class="b1">
+	<h1 class="po1"> ADD PRODUCT DETAILS </h1>
+	<h3> <form action="pro.php" method="post" onsubmit="return validate()">
+	<label for="proid"> Product Id </label>
+	<input type="number" id="proid" name="pid" size="35" ><br>
+	<label for="proname"> Product Name </label>
+	<input type="text" id="proname" name="pname" size="35" ><br>
+	<label for="reorder"> Reorder Level </label>
+	<input type="number" id="reorder" name="ror" size="35" ><br>
+	<label for="quantity"> Quantity Available </label>
+	<input type="number" id="quantity" name="quan" size="35" ><br>
+	<label for="cost"> Cost </label>
+	<input type="number" id="cost" size="35" name="cost" step="0.01" > <br>
+	<p align="center">
+	<input type="submit" name="submit" value="SUBMIT" class="sub2" ><br>
+	</p>
+	</h3>
+	<h3 class="po2">
+	<a href="view.html"> Click here to view data </a> <br>
+	<a href="retrivedata.html"> Click here to retrive any data </a><br>
+	<a href="retrivecost.html"> Click here to retrive data between cost range </a><br>
+	<a href="up.html">Click here to update data</a>
+	<h3>
+	</form>
+</body>
+</html>
